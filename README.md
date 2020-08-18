@@ -31,13 +31,23 @@ Our objective is to minimize the distance travelled by saleseman(here vehicle) t
 ## GA
 
 Representation -------- Permutation of Integer tuples which represents the city
+
 Fitness -------- Inverse of the route distance
+
 Recombination -------- ordered crossover, elitism size 20
+
 Mutation -------- Swap
+
 Mutation Probability -------- 0.01
+
 Parent Selection -------- Best 2
+
 Survival Selection -------- rank, roulette wheel, elitislm 20
+
 Population size -------- 100
+
 Number of Offspring -------- 2
+
 Initialization -------- Random
+
 Termination condition -------- 500 generations
